@@ -1,2 +1,10 @@
 # Kyaru-api.py
-🌄 Wrapper for kyaru-api written in Python. Get a random picture now!
+ 
+
+## How to use?
+```py
+from index import KyaruAgent 
+kyaru = KyaruAgent("YOU API TOKEN") # API Key. 
+
+kyaru.get("hug")
+```
