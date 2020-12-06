@@ -18,7 +18,7 @@ class KyaruAgent :
         )
 
 def req(endpoint, headers):
-    res = requests.get(f"https://kyaru-api.glitch.me/api/v1/{endpoint}", headers=headers)
+    res = requests.get(f"https://api.kyaru-dev.ml/v2/{endpoint}", headers=headers)
     return res.json()
 
 # Developer with ❤ by Kyaru Development #
